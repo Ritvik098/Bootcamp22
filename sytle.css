@@ -1,0 +1,33 @@
+h1{
+    color: blue;
+}
+
+.blue_color{
+    color: blue;
+}
+
+*{
+    background-color: white;
+}
+div p{
+    background-color: yellow;
+}
+div > p{
+    background-color: grey;
+}
+
+div~p{
+    background-color: grey;
+}
+
+div+p{
+    background-color: bisque;
+}
+
+div {
+    background-color: lightgreen;
+    width: 300px;
+    border: 15px lightgreen;
+    padding: 50px;
+    margin: 20px;
+  }
